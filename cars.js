@@ -6,11 +6,11 @@ const cars = [
     { id: 5, make: "Toyota", model: "Golf", year: 2019, color: "blue" }
 ];
 
-function getCars() {
+const getCars = () => {
     return cars;
 }
 
-function getCarInformation(id) {
+const getCarInformation = (id) => {
 const car = getCars().find(car => car.id === id);
     if (car) {
         return `Make: ${car.make}, Model: ${car.model}, Year: ${car.year}, Color: ${car.color}.`;
@@ -19,7 +19,7 @@ const car = getCars().find(car => car.id === id);
     }
 }
 
-function getCarAge(id) {
+const getCarAge = (id) => {
 const car = getCars().find(car => car.id === id);
     if (car) {
         const currentYear = new Date().getFullYear();
@@ -29,7 +29,7 @@ const car = getCars().find(car => car.id === id);
         return "Car doesn't exist";
     }
 }
-console.log(getCarInformation(2));
+
 module.exports = {
     getCars,
     getCarInformation,

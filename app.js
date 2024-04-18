@@ -1,5 +1,6 @@
 const http = require('http');
 const PORT = 3000;
+const id = 1;
 const { getCars, getCarInformation, getCarAge } = require('./cars');
 const { getHTMLDocumentStart, getHTMLDocumentEnd } = require('./htmlGenerator');
 
