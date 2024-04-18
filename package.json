@@ -1,0 +1,15 @@
+{
+  "name": "mvc-lab-retake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "mvc-lab-retake"
+  },
+  "author": "Yana",
+  "license": "ISC"
+}
